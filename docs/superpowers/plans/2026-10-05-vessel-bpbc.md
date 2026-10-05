@@ -48,6 +48,6 @@ Files: src/Bpbc.java, src/Main.java, run.ps1, scripts/download-data.ps1, README.
 - [x] Compare final solutions to independent exhaustive integer search on seeded synthetic fixtures and forced branches.
 - [x] Build and run the author's L1-B10-V10-01 with a stated time limit; record exact status, bounds and time.
 - [x] Document equation-to-file mapping and minimal commands; inspect tracked files for secrets/binaries.
-- [ ] Commit verified files, upload to GitHub, and verify remote contents.
+- [x] Commit verified files, upload to GitHub, and verify remote contents.
 
 Self-review: every spec requirement maps to the three tasks above. Verification must compare against independent enumeration rather than assert values produced by the same implementation.
