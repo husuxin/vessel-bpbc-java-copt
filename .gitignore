@@ -1,0 +1,8 @@
+build/
+data/official/
+*.class
+*.jar
+*.dll
+*.key
+license.dat
+*.log

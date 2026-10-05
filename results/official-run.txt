@@ -1,0 +1,24 @@
+Cardinal Optimizer v8.0.6. Build date Aug  7 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+node=1 LB=4156.000000 vesselCols=438 pilotCols=168 cuts=86
+node=2 LB=4156.000000 vesselCols=414 pilotCols=170 cuts=87
+RESULT status=OPTIMAL LB=4156.00000000 UB=4156.00000000 gap=0.000000% rootLP=4156.00000000 nodes=2 seconds=76.888 LPs=34429 cuts=173 vesselCols=852 pilotCols=62606
+vessel 0 berth 1 inward 7 outward 66 cost 302.00
+vessel 1 berth 2 inward 0 outward 71 cost 352.00
+vessel 2 berth 7 inward 23 outward 83 cost 268.00
+vessel 3 berth 3 inward 29 outward 145 cost 600.00
+vessel 4 berth 0 inward 38 outward 150 cost 557.00
+vessel 5 berth 4 inward 62 outward 133 cost 326.00
+vessel 6 berth 5 inward 87 outward 160 cost 333.00
+vessel 7 berth 7 inward 93 outward 161 cost 308.00
+vessel 8 berth 9 inward 101 outward 174 cost 347.00
+vessel 9 berth 3 inward 141 outward 217 cost 379.00
+pilot shift 0 tasks [Task[task=1, time=0], Task[task=2, time=23], Task[task=4, time=38]] rest@14 position 1
+pilot shift 3 tasks [Task[task=14, time=150], Task[task=16, time=160], Task[task=18, time=174]] rest@167 position 2
+pilot shift 4 tasks [Task[task=19, time=217]] rest@224 position 1
+pilot shift 1 tasks [Task[task=5, time=62], Task[task=11, time=71], Task[task=6, time=87]] rest@78 position 2
+pilot shift 3 tasks [Task[task=13, time=145], Task[task=17, time=161]] rest@168 position 2
+pilot shift 1 tasks [Task[task=10, time=66], Task[task=12, time=83], Task[task=7, time=93]] rest@73 position 1
+pilot shift 0 tasks [Task[task=0, time=7], Task[task=3, time=29]] rest@14 position 1
+pilot shift 2 tasks [Task[task=8, time=101], Task[task=15, time=133], Task[task=9, time=141]] rest@110 position 1
